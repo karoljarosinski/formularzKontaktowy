@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.poczta.onet.pl
+    port: 465
+    username: mailtestowy500@poczta.onet.pl
+    password: abc123ABC
+    properties:
+      mail.smtp.ssl.enable: true
+      smtp:
+        auth: true
+
