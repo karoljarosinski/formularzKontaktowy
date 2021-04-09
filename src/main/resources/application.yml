@@ -8,3 +8,4 @@ spring:
       mail.smtp.ssl.enable: true
       smtp:
         auth: true
+

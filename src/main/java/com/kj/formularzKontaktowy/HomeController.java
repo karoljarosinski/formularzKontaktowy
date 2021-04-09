@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class HomeController {
 
-    private MailService mailService;
+    private final MailService mailService;
 
     public HomeController(MailService mailService) {
         this.mailService = mailService;

@@ -2,6 +2,8 @@ package com.kj.formularzKontaktowy;
 
 public class Message {
 
+
+
     private String senderName;
     private String senderEmail;
     private String content;
